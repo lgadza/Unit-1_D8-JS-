@@ -153,10 +153,20 @@ console.log(`LISENSEPLATE: ${car.brand}`);
 
 /* WRITE YOUR ANSWER HERE */
 let carsForSale = [];
-carsForSale.push(car2, car3, car4);
-console.log(carsForSale);
+const saleCar = {
+  brand: "Ferari",
+  year: 2022,
+  color: "Green",
+  licensePlate: "L15Gzw",
+};
+const saleCar2 = Object.assign({}, saleCar);
+saleCar2.licensePlate = "L14Gzw";
+const saleCar3 = Object.assign({}, saleCar);
+saleCar3.licensePlate = "L13Gzw";
 
-let totalCars = carsForRent.length;
+carsForSale.push(saleCar, saleCar2, saleCar3);
+
+let totalCars = carsForRent.length + carsForSale.length;
 console.log(totalCars);
 
 /* EXERCISE 13
