@@ -34,7 +34,6 @@ myInfo.hasDrivingLicense = true;
 
 /* WRITE YOUR ANSWER HERE */
 delete myInfo.age;
-console.log(myInfo);
 
 /* EXERCISE 5
  Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
