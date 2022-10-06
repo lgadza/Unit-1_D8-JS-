@@ -15,7 +15,7 @@ for (let i = arr.length - 1; i >= 0; i--) {
 console.log(revArr);
 
 /* EXTRA 2
-TODO
+
  Write a piece of code for getting the maximum numerical value from an array.
 */
 
