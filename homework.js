@@ -138,12 +138,12 @@ carsForRent.pop();
 
 /* WRITE YOUR ANSWER HERE */
 
-console.log(`BRAND: ${car.brand}`);
+console.log(typeof car);
 
-console.log(`YEAR: ${car.year}`);
+console.log(typeof car.year);
 
-console.log(`COLOR: ${car.brand}`);
-console.log(`LISENSEPLATE: ${car.brand}`);
+console.log(typeof car.brand);
+console.log(typeof car.brand);
 
 /* EXERCISE 12
  Create a new variable called carsForSale assigning to it an empty array, and then insert 3 cars into it.
