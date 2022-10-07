@@ -41,9 +41,7 @@ console.log(Array2Min);
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, -10];
 let evenNums = [];
 for (let i = 0; i < nums.length; i++) {
-  if (nums[i] === 1) {
-    evenNums.push(1);
-  } else if (nums[i] > 0 && nums[i] % 2 === 0) {
+  if (nums[i] > 0 && nums[i] % 2 === 0) {
     evenNums.push(nums[i]);
   }
 }
@@ -57,9 +55,7 @@ console.log(evenNums);
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, -10];
 let noEvenNums = [];
 for (let i = 0; i < numbers.length; i++) {
-  if (numbers[i] === 1) {
-    noEvenNums = [];
-  } else if (nums[i] < 0) {
+  if (nums[i] < 0) {
     noEvenNums.push(numbers[i]);
   } else if (numbers[i] % 2 === 1) {
     noEvenNums.push(numbers[i]);
